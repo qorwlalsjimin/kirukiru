@@ -22,16 +22,16 @@
                 <div class="row collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="col-lg-4 navbar-nav">
                         <li class="nav-item me-3 ms-3">
-                            <a class="nav-link text-black fw-bolder" href="#">전통</a>
+                            <a class="nav-link  fw-bolder" href="#">전통</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link text-black fw-bolder" href="#">개량</a>
+                            <a class="nav-link  fw-bolder" href="#">개량</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link text-black fw-bolder" href="#">스페셜</a>
+                            <a class="nav-link  fw-bolder" href="#">스페셜</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black fw-bolder">ACC</a>
+                            <a class="nav-link  fw-bolder">ACC</a>
                         </li>
                     </ul>
 
@@ -40,16 +40,36 @@
                     <div class="col-lg-4 p-0 ps-5">
                         <ul class="navbar-nav ps-3">
                             <li class="nav-item ps-5 ms-5 pe-2">
-                                <a class="nav-link text-black" aria-current="page" href="#"><img src="./img/nav_search.png" alt="검색"></a>
+                                <a class="nav-link " aria-current="page" href="#">
+                                    <img src="./img/nav_search.png" alt="검색"
+                                         onmouseover="this.src=`./img/nav_service.png`"
+                                         onmouseout="this.src=`./img/nav_search.png`"
+                                    >
+                                </a>
                             </li>
                             <li class="nav-item pe-2">
-                                <a class="nav-link text-black" href="#"><img src="./img/nav_service.png" alt="고객센터"></a>
+                                <a class="nav-link " href="#">
+                                    <img src="./img/nav_service.png" alt="고객센터"
+                                         onmouseover="this.src=`./img/nav_service.png`"
+                                         onmouseout="this.src=`./img/nav_service.png`"
+                                    >
+                                </a>
                             </li>
                             <li class="nav-item pe-2">
-                                <a class="nav-link text-black" href="#"><img src="./img/nav_cart.png" alt="장바구니"></a>
+                                <a class="nav-link " href="#">
+                                    <img src="./img/nav_cart.png" alt="장바구니"
+                                         onmouseover="this.src=`./img/nav_service.png`"
+                                         onmouseout="this.src=`./img/nav_cart.png`"
+                                    >
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-black"><img src="./img/nav_heart.png" alt="즐겨찾기"></a>
+                                <a class="nav-link ">
+                                    <img src="./img/nav_heart.png" alt="즐겨찾기"
+                                         onmouseover="this.src=`./img/nav_service.png`"
+                                         onmouseout="this.src=`./img/nav_heart.png`"
+                                    >
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -60,6 +80,7 @@
 
     <!--main-->
     <main>
+        <!--슬라이딩 배너-->
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -80,6 +101,13 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>
+
+        <!--item 1-->
+        <div class="item_1 my-5">
+            <h5 class="text-center fw-bold">Dress best 6</h5>
+            <img src="./img/item1.png" alt="item1" class="mx-auto mt-5 my-2 d-block">
+            <h6 class="text-center fw-normal" style="font-size: 14px">카테고리(필터)<br>10,000원</h6>
         </div>
     </main>
 

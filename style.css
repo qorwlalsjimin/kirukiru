@@ -1,7 +1,14 @@
+/*전체폰트*/
 body {
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
+/*nav바 폰트 사이즈*/
 .navbar .nav-item a{
+    color: black;
     font-size: 15px;
+}
+
+.navbar .nav-item a:hover{
+    color: pink;
 }
