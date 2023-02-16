@@ -39,13 +39,19 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    background: rgba( 255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 
 
+/* carousel */
 
 
-a{
+
+.item_3 a{
     text-decoration-line: none;
+    padding: 10%;
+    color: black;
 }
 
 
@@ -69,6 +75,12 @@ a{
     position: absolute;
     top: 7%;
     left: 42%;
+}
+
+.carousel-item img{
+    /* position: absolute; */
+    top: 5%;
+    
 }
 
 .col-lg-2 h2{

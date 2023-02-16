@@ -169,6 +169,24 @@
             <h4 class="fw-bolder text-center pt-5">Kiruの伝統韓服をご覧ください</h4>
             </img>
 
+            <div id="carouselExamplesSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/item3_img.png" class="d-block w-70" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/item3_img2.png" class="d-block w-70" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/item3_img3.png" class="d-block w-70" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
         </div>
 
         <div class="item_5">
