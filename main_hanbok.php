@@ -25,7 +25,7 @@
             <div class="container text-center">
                 <div class="row collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="col-lg-4 navbar-nav">
-                        <li class="nav-item me-3 ms-3">
+                        <li class="nav-item me-3">
                             <a class="nav-link  fw-bolder" href="#">伝統</a>
                         </li>
                         <li class="nav-item me-3">
@@ -35,11 +35,11 @@
                             <a class="nav-link  fw-bolder" href="#">スペシャル</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link fw-bolder">靴</a>
+                            <a class="nav-link fw-bolder" href="#">靴</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link  fw-bolder">ACC</a>
+                            <a class="nav-link  fw-bolder" href="#" >ACC</a>
                         </li>
                         
                     </ul>

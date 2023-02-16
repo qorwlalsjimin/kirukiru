@@ -40,8 +40,11 @@ body {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     background: rgba( 255, 255, 255, 0.5);
-    border-radius: 10px;
+    
 }
+
+
+
 
 
 /* carousel */
@@ -55,10 +58,12 @@ body {
 }
 
 
-.navbar .nav-item a:hover{
+.col-lg-4 li a:hover{
     color: pink;
    
 }
+
+
 
 .fw-bolder{
     cursor: pointer;
@@ -74,11 +79,11 @@ body {
 .item_4 h4{
     position: absolute;
     top: 7%;
-    left: 42%;
+    left: 40%;
 }
 
 .carousel-item img{
-    /* position: absolute; */
+    position: absolute;
     top: 5%;
     
 }
@@ -93,7 +98,6 @@ body {
 .main_img2{
     position: relative;
 }
-
 
 
 .title{
@@ -127,10 +131,41 @@ body {
 .item_5{
     background: radial-gradient(#AECDC6 17%, #fff, #fff);
     min-height: 100vh;
-
 }
+
+
+
+
+
 
 .item_5 img{
     margin-left: 25%;
     padding-top: 17%;
 }
+
+
+.main_content{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.text h1{
+    font-size: 3em;
+    padding: 2px;
+}
+
+.text span{
+    font-size: 1.5em;
+}
+
+.main_content img{
+    height: 570px;
+}
+
+
+
