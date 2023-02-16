@@ -26,20 +26,20 @@
                 <div class="row collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="col-lg-4">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">伝統</a>
+                            <a class="nav-link fw-bold" href="#">伝統</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">改良</a>
+                            <a class="nav-link fw-bold" href="#">改良</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">スペシャル</a>
+                            <a class="nav-link fw-bold" href="#">スペシャル</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-lin" href="#">靴</a>
+                            <a class="nav-link fw-bold" href="#">靴</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#" >ACC</a>
+                            <a class="nav-link fw-bold" href="#" >ACC</a>
                         </li>
                         <!--  fw-bolder -->
                     </ul>
@@ -50,7 +50,7 @@
                         <ul class="navbar-nav ps-3">
                             <li class="nav-item ps-5 ms-5 pe-2">
                                 <a class="nav-link " aria-current="page" href="#">
-                                    <img src="./img/nav_search.png" alt="검색"
+                                    <img src="./img/4.png" alt="검색"
                                          onmouseover="this.src=`./img/nav_search.png`"
                                          onmouseout="this.src=`./img/nav_search.png`"
                                     >
@@ -58,7 +58,7 @@
                             </li>
                             <li class="nav-item pe-2">
                                 <a class="nav-link " href="#">
-                                    <img src="./img/nav_heart.png" alt="즐겨찾기"
+                                    <img src="./img/3.png" alt="즐겨찾기"
                                          onmouseover="this.src=`./img/nav_heart.png`"
                                          onmouseout="this.src=`./img/nav_heart.png`"
                                     >
@@ -66,7 +66,7 @@
                             </li>
                             <li class="nav-item pe-2">
                                 <a class="nav-link " href="#">
-                                    <img src="./img/nav_cart.png" alt="장바구니"
+                                    <img src="./img/2.png" alt="장바구니"
                                          onmouseover="this.src=`./img/nav_cart.png`"
                                          onmouseout="this.src=`./img/nav_cart.png`"
                                     >
@@ -74,7 +74,7 @@
                             </li>
                             <li class="nav-item">
                                 <a href="login_form.html" class="nav-link">
-                                    <img src="./img/nav_user.png" alt="마이페이지"
+                                    <img src="./img/1.png" alt="마이페이지"
                                          onmouseover="this.src=`./img/nav_user.png`"
                                          onmouseout="this.src=`./img/nav_user.png`"
                                     >
@@ -90,19 +90,12 @@
     <!--main-->
     <main>
         <!-- 메인 화면 -->
-        
-           
-                <div class="main_img2">
-                    <img src="img/Group 27.png" class="main_img d-block w-100" alt="...">
-                    <img src="img/Rectangle 121.png" class="Rectangle d-block w-100" alt="...">
-                    <h1 class="title">韓服</h1>
+           <div class="main_img2">
+               <img src="img/Group 27.png" class="main_img d-block w-100" alt="...">
+               <img src="img/Rectangle 121.png" class="Rectangle d-block w-100" alt="...">
+               <h1 class="title">韓服</h1>
 
-                </div>
-
-                 <!--item -->
-     
-
-           
+            </div>
             <button class="carousel-control-prev mt-5" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -114,37 +107,33 @@
         </div>
 
 
-       
+
 
     <!--
         <div class="item_2 my-5">
-            
+
             <img src="./img/item3.png" alt="item1" class="mx-auto mt-5 my-2 d-block">
-            <h6 class="text-center fw-semibold" style="font-size: 14px">카테고리(필터)</h6> 
+            <h6 class="text-center fw-semibold" style="font-size: 14px">카테고리(필터)</h6>
         </div>-->
 
 
-        
+
 
         <div class="item_1 my-5">
-            <h5 class="text-center fw-bold">改良韓服 best 6</h5>
+            <h5 class="text-center fw-bold pt-5">改良韓服 best 6</h5>
             <img src="./img/item1.png" alt="item1" class="mx-auto mt-5 my-2 d-block">
-            <h6 class="text-center fw-semibold" style="font-size: 14px">카테고리(필터)<br>10,000원</h6>
+            <h6 class="text-center fw-semibold mb-5 pb-5" style="font-size: 14px">카테고리(필터)<br>10,000원</h6>
         </div>
 
 
-        <div class="item_3">
-            
+        <div class="item_3 mt-5 pt-5">
             <img src="./img/item3.png" class="d-block w-100">
-
             <button>개량 한복 보러가기</button>
-            
-
         </div>
 
 
         <!--item 4-->
-        <div class="item_3 py-5 text-center container">
+        <div class="item_3 py-5 my-5 text-center container">
             <h4 class="fw-bolder text-center mb-5 mt-5">アクセサリー</h4>
             <div class="row justify-content-center px-5 mt-5">
                 <a href="goods_detail.php?id=1" class="col-lg-2 p-0" ><img src="./img/product1.png" alt="상품1"><h2>弓道ポーチ</h2></a>
@@ -156,46 +145,35 @@
             </div>
         </div>
 
-        
+
         <!--item 2-->
 
-       
 
-        <!-- item 4 -->
-        <div class="item_4">
-            
-            <img src="./img/benner.png" class="d-block w-100">
 
-            <h4 class="fw-bolder text-center pt-5">Kiruの伝統韓服をご覧ください</h4>
-            </img>
-
-            <div id="carouselExamplesSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./img/item3_img.png" class="d-block w-70" alt="">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/item3_img2.png" class="d-block w-70" alt="">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/item3_img3.png" class="d-block w-70" alt="">
-                    </div>
+        <!-- item 4 Kiruの伝統韓服をご覧ください-->
+        <div class="item_4 mt-5">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/benner.png" class="d-block w-100" alt="...">
                 </div>
-
-
+                <div class="carousel-item">
+                  <img src="./img/benner.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-
-
-
         </div>
 
         <div class="item_5">
-            
             <img src="./img/group 30.png" class="d-block w-50 h-70">
-
-           
-        
-
         </div>
 
 
