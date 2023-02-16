@@ -1,5 +1,6 @@
 <?php
     session_start();
+    setcookie("h_or_k", "hanbok", time()+86400); //한복인지 기모노인지 구분하기 위함
 ?>
 <!DOCTYPE html>
 <html lang="en">
