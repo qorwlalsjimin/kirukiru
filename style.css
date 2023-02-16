@@ -168,4 +168,34 @@ body {
 }
 
 
+.second_sc{
+    min-height: 100vh;
+    background: linear-gradient(to right, #86619C, #B98CD5, #F9F1FC);
+}
+
+
+
+.second_sc img{
+    /*margin-top: 20%;*/
+    padding-top: 7%;
+    margin-left: 40%;
+    width: 60%;
+    height: 40%;
+   
+}
+
+
+.main_content .text2 h1{
+ 
+ top: 10%;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+
 

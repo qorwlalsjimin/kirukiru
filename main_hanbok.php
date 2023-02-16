@@ -24,24 +24,24 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary my-2">
             <div class="container text-center">
                 <div class="row collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="col-lg-4 navbar-nav">
-                        <li class="nav-item me-3">
-                            <a class="nav-link  fw-bolder" href="#">伝統</a>
+                    <ul class="col-lg-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">伝統</a>
                         </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link  fw-bolder" href="#">改良</a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">改良</a>
                         </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link  fw-bolder" href="#">スペシャル</a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">スペシャル</a>
                         </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link fw-bolder" href="#">靴</a>
+                        <li class="nav-item ">
+                            <a class="nav-lin" href="#">靴</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link  fw-bolder" href="#" >ACC</a>
+                            <a class="nav-link" href="#" >ACC</a>
                         </li>
-                        
+                        <!--  fw-bolder -->
                     </ul>
 
                     <a class="col-lg-4 navbar-brand m-0 text-center" href="main_hanbok.php"><img src="./img/logo.png" alt="로고"></a>
