@@ -7,8 +7,23 @@ body {
 .navbar .nav-item a{
     color: black;
     font-size: 15px;
+    
 }
 
 .navbar .nav-item a:hover{
     color: pink;
+   
+}
+
+.fw-bolder{
+    cursor: pointer;
+}
+
+.item_4{
+    min-height: 100vh;
+    background: #D8C9DD;
+}
+
+.col-lg-2 a{
+    font-size: 10px;
 }
