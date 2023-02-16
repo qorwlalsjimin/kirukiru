@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,39 +38,39 @@
                         </li>
                     </ul>
 
-                    <a class="col-lg-4 navbar-brand m-0 text-center" href="#"><img src="./img/logo.png" alt="로고"></a>
+                    <a class="col-lg-4 navbar-brand m-0 text-center" href="main_hanbok.php"><img src="./img/logo.png" alt="로고"></a>
 
                     <div class="col-lg-4 p-0 ps-5">
                         <ul class="navbar-nav ps-3">
                             <li class="nav-item ps-5 ms-5 pe-2">
                                 <a class="nav-link " aria-current="page" href="#">
                                     <img src="./img/nav_search.png" alt="검색"
-                                         onmouseover="this.src=`./img/nav_service.png`"
+                                         onmouseover="this.src=`./img/nav_search.png`"
                                          onmouseout="this.src=`./img/nav_search.png`"
                                     >
                                 </a>
                             </li>
                             <li class="nav-item pe-2">
                                 <a class="nav-link " href="#">
-                                    <img src="./img/nav_service.png" alt="고객센터"
-                                         onmouseover="this.src=`./img/nav_service.png`"
-                                         onmouseout="this.src=`./img/nav_service.png`"
+                                    <img src="./img/nav_heart.png" alt="즐겨찾기"
+                                         onmouseover="this.src=`./img/nav_heart.png`"
+                                         onmouseout="this.src=`./img/nav_heart.png`"
                                     >
                                 </a>
                             </li>
                             <li class="nav-item pe-2">
                                 <a class="nav-link " href="#">
                                     <img src="./img/nav_cart.png" alt="장바구니"
-                                         onmouseover="this.src=`./img/nav_service.png`"
+                                         onmouseover="this.src=`./img/nav_cart.png`"
                                          onmouseout="this.src=`./img/nav_cart.png`"
                                     >
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ">
-                                    <img src="./img/nav_heart.png" alt="즐겨찾기"
-                                         onmouseover="this.src=`./img/nav_service.png`"
-                                         onmouseout="this.src=`./img/nav_heart.png`"
+                                <a href="login_form.html" class="nav-link">
+                                    <img src="./img/nav_user.png" alt="마이페이지"
+                                         onmouseover="this.src=`./img/nav_user.png`"
+                                         onmouseout="this.src=`./img/nav_user.png`"
                                     >
                                 </a>
                             </li>
@@ -118,6 +121,12 @@
 
     <footer>
     </footer>
+
+
+    <div style="position: fixed; bottom: 40px; right: 120px">
+        <a href="main_kimono.php"><img src="./img/switch_button_kimono.png"></a>
+    </div>
+
 </body>
 
 </html>

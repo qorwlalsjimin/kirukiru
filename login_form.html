@@ -80,19 +80,27 @@
 
 <!--main-->
 <main>
-    <div class="login_box container align-middle text-center">
-        <!--img_box-->
-        <div class="row align-items-center">
-            <form action="" method="post">
-                <div class="naver">
-                    <button type="button" class="btn_naver btn btn-outline-success mb-3 w-50" onclick="window.location.href = 'notice.html'">네이버로 시작하기</button>
+    <div class="container mt-3">
+        <div class="row ms-2">
+            <form action="login_process.php" method="post" class="col-6">
+                <div class="row mb-3">
+                    <label class="col-sm-3 col-form-label">ID</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="user_id" placeholder="ID">
+                    </div>
                 </div>
-                <button type="button" class="btn btn-secondary w-50" onclick="window.location.href = 'join_form.html'">ID/PW 회원가입</button></a>
+                <div class="row mb-3">
+                    <label class="col-sm-3 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" name="user_pw" placeholder="password">
+                    </div>
+                </div>
+                <a href="join_select.html">회원가입</a><br>
+                <button type="submit" class="btn btn-primary">Login in</button>
             </form>
+
         </div>
-        <!--//widget-->
     </div>
-    <!--//container-->
 </main>
 
 <footer>

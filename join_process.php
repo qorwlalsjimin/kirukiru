@@ -53,7 +53,7 @@
             mysqli_query($conn, "insert into user_information values('$user_name', '$user_number', '$user_id', '$user_pw','$user_email');");
             echo "<script>
                     alert('회원가입 성공');
-                    window.location.href = 'login.php';
+                    window.location.href = 'login_form.php';
                   </script>";
           }
           //TODO: 아이디 다시 입력해야되는데 회원가입햇다함
