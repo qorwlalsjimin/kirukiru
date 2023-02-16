@@ -26,17 +26,22 @@
                 <div class="row collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="col-lg-4 navbar-nav">
                         <li class="nav-item me-3 ms-3">
-                            <a class="nav-link  fw-bolder" href="#">전통</a>
+                            <a class="nav-link  fw-bolder" href="#">伝統</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link  fw-bolder" href="#">개량</a>
+                            <a class="nav-link  fw-bolder" href="#">改良</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a class="nav-link  fw-bolder" href="#">스페셜</a>
+                            <a class="nav-link  fw-bolder" href="#">スペシャル</a>
                         </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link fw-bolder">靴</a>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link  fw-bolder">ACC</a>
                         </li>
+                        
                     </ul>
 
                     <a class="col-lg-4 navbar-brand m-0 text-center" href="main_hanbok.php"><img src="./img/logo.png" alt="로고"></a>
@@ -86,16 +91,11 @@
     <main>
         <!--슬라이딩 배너-->
         <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
+           
                 <div class="carousel-item active">
-                    <img src="https://ifh.cc/g/WjdQrD.jpg" class="d-block w-100" alt="...">
+                    <img src="img/Group 27.png" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                    <img src="./img/carousel_1.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/carousel_1.png" class="d-block w-100" alt="...">
-                </div>
+                
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
