@@ -10,6 +10,45 @@ body {
     
 }
 
+.item_1 h5{
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+/* item 3 */
+
+.item_3{
+    position: relative;
+}
+
+.item_3 button{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+}
+
+.item_3 button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+a{
+    text-decoration-line: none;
+}
+
+
 .navbar .nav-item a:hover{
     color: pink;
    
@@ -21,9 +60,65 @@ body {
 
 .item_4{
     min-height: 100vh;
-    background: #D8C9DD;
+    position: relative;
+    
 }
 
-.col-lg-2 a{
-    font-size: 10px;
+
+.item_4 h4{
+    position: absolute;
+    top: 7%;
+    left: 42%;
+}
+
+.col-lg-2 h2{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.main_img2{
+    position: relative;
+}
+
+
+
+.title{
+    position: absolute;
+    left: 46%;
+    top: 50%;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.Rectangle{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.item_2{
+    min-width: 100vw;
+}
+
+
+/* acc */
+
+.item_3 h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* item 5 */
+.item_5{
+    background: radial-gradient(#AECDC6 17%, #fff, #fff);
+    min-height: 100vh;
+
+}
+
+.item_5 img{
+    margin-left: 25%;
+    padding-top: 17%;
 }

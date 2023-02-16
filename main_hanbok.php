@@ -89,14 +89,20 @@
 
     <!--main-->
     <main>
-        <!--슬라이딩 배너-->
-        <div id="carouselExample" class="carousel slide">
+        <!-- 메인 화면 -->
+        
            
-                <div class="carousel-item active">
-                    <img src="img/Group 27.png" class="d-block w-100" alt="...">
+                <div class="main_img2">
+                    <img src="img/Group 27.png" class="main_img d-block w-100" alt="...">
+                    <img src="img/Rectangle 121.png" class="Rectangle d-block w-100" alt="...">
+                    <h1 class="title">韓服</h1>
+
                 </div>
-                
-            </div>
+
+                 <!--item -->
+     
+
+           
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -107,38 +113,73 @@
             </button>
         </div>
 
-        <!--item 1-->
+
+       
+
+    <!--
+        <div class="item_2 my-5">
+            
+            <img src="./img/item3.png" alt="item1" class="mx-auto mt-5 my-2 d-block">
+            <h6 class="text-center fw-semibold" style="font-size: 14px">카테고리(필터)</h6> 
+        </div>-->
+
+
+        
+
         <div class="item_1 my-5">
-            <h5 class="text-center fw-bold">Dress best 6</h5>
+            <h5 class="text-center fw-bold">改良韓服 best 6</h5>
             <img src="./img/item1.png" alt="item1" class="mx-auto mt-5 my-2 d-block">
             <h6 class="text-center fw-semibold" style="font-size: 14px">카테고리(필터)<br>10,000원</h6>
         </div>
 
-        <!--item 2-->
-        <div class="item_2 my-5">
-            <img src="./img/carousel_1.png" class="img-fluid" alt="...">
+
+        <div class="item_3">
+            
+            <img src="./img/item3.png" class="d-block w-100">
+
+            <button>개량 한복 보러가기</button>
+            
+
         </div>
 
-        <!--item 3-->
+
+        <!--item 4-->
         <div class="item_3 py-5 text-center container">
-            <h4 class="fw-bolder text-center mb-5">ACC</h4>
+            <h4 class="fw-bolder text-center mb-5 mt-5">アクセサリー</h4>
             <div class="row justify-content-center px-5 mt-5">
-                <a href="goods_detail.php?id=1" class="col-lg-2 p-0" ><img src="./img/product1.png" alt="상품1"><h2>궁보 파우치</h2></a>
-                <a href="goods_detail.php?id=2" class="col-lg-2 p-0"><img src="./img/product2.png" alt="상품2"><h2>괴불노리개 제작 키트</h2></a>
-                <a href="goods_detail.php?id=3" class="col-lg-2 p-0"><img src="./img/product3.png" alt="상품3"><h2>봉황문인문보 전통 용돈봉투 </h2></a>
-                <a href="goods_detail.php?id=4" class="col-lg-2 p-0"><img src="./img/product4.png" alt="상품4"><h2>화문 트윌리</h2></a>
-                <a href="goods_detail.php?id=5" class="col-lg-2 p-0"><img src="./img/product5.png" alt="상품5"><h2>동심결 세조대</h2></a>
-                <a href="goods_detail.php?id=6" class="col-lg-2 p-0"><img src="./img/product6.png" alt="상품6"><h2>업사이클링 돌금박노리개 </h2></a>
+                <a href="goods_detail.php?id=1" class="col-lg-2 p-0" ><img src="./img/product1.png" alt="상품1"><h2>弓道ポーチ</h2></a>
+                <a href="goods_detail.php?id=2" class="col-lg-2 p-0"><img src="./img/product2.png" alt="상품2"><h2>怪仏ノリ作りキット</h2></a>
+                <a href="goods_detail.php?id=3" class="col-lg-2 p-0"><img src="./img/product3.png" alt="상품3"><h2>鳳凰文人文譜 伝統 小遣い袋 </h2></a>
+                <a href="goods_detail.php?id=4" class="col-lg-2 p-0"><img src="./img/product4.png" alt="상품4"><h2>花紋ツイリー</h2></a>
+                <a href="goods_detail.php?id=5" class="col-lg-2 p-0"><img src="./img/product5.png" alt="상품5"><h2>同心結世祖隊</h2></a>
+                <a href="goods_detail.php?id=6" class="col-lg-2 p-0"><img src="./img/product6.png" alt="상품6"><h2>アップサイクリング 石金箔ノリ </h2></a>
             </div>
         </div>
 
+        
+        <!--item 2-->
+
+       
+
         <!-- item 4 -->
         <div class="item_4">
-            <h4 class="fw-bolder text-center pt-5">Dress best 6</h4>
+            
+            <img src="./img/benner.png" class="d-block w-100">
 
-
+            <h4 class="fw-bolder text-center pt-5">Kiruの伝統韓服をご覧ください</h4>
+            </img>
 
         </div>
+
+        <div class="item_5">
+            
+            <img src="./img/group 30.png" class="d-block w-50 h-70">
+
+           
+        
+
+        </div>
+
 
     </main>
 
@@ -149,7 +190,7 @@
 
 
     <div style="position: fixed; bottom: 40px; right: 120px">
-        <a href="main_kimono.php"><img src="./img/switch_button_kimono.png"></a>
+        <a href="main_kimono.php"><img src="./img/sw_kimono.png"></a>
     </div>
 
 </body>

@@ -121,7 +121,7 @@
 
 
     <div style="position: fixed; bottom: 40px; right: 120px">
-        <a href="main_hanbok.php"><img src="./img/switch_button_hanbok.png"></a>
+        <a href="main_hanbok.php"><img src="./img/sw_hanbok.png"></a>
     </div>
 
 </body>
