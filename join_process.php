@@ -1,8 +1,6 @@
 <?php
     include("db_conn.php");
 
-    mysqli_query($conn, "insert into values('')");
-
     $user_name = $_POST['user_name'];
     $user_number = $_POST['user_number'];
     $user_id = $_POST['user_id'];

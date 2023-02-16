@@ -123,12 +123,12 @@
         <div class="item_3 py-5 text-center container">
             <h4 class="fw-bolder text-center mb-5">ACC</h4>
             <div class="row justify-content-center px-5 mt-5">
-                <a href="goods_detail.html?id=1" class="col-lg-2 p-0" ><img src="./img/product1.png" alt="상품1"><h2>궁보 파우치</h2></a>
-                <a href="goods_detail.html?id=2" class="col-lg-2 p-0"><img src="./img/product2.png" alt="상품2"><h2>괴불노리개 제작 키트</h2></a>
-                <a href="goods_detail.html?id=3" class="col-lg-2 p-0"><img src="./img/product3.png" alt="상품3"><h2>봉황문인문보 전통 용돈봉투 </h2></a>
-                <a href="goods_detail.html?id=4" class="col-lg-2 p-0"><img src="./img/product4.png" alt="상품4"><h2>화문 트윌리</h2></a>
-                <a href="goods_detail.html?id=5" class="col-lg-2 p-0"><img src="./img/product5.png" alt="상품5"><h2>동심결 세조대</h2></a>
-                <a href="goods_detail.html?id=6" class="col-lg-2 p-0"><img src="./img/product6.png" alt="상품6"><h2>업사이클링 돌금박노리개 </h2></a>
+                <a href="goods_detail.php?id=1" class="col-lg-2 p-0" ><img src="./img/product1.png" alt="상품1"><h2>궁보 파우치</h2></a>
+                <a href="goods_detail.php?id=2" class="col-lg-2 p-0"><img src="./img/product2.png" alt="상품2"><h2>괴불노리개 제작 키트</h2></a>
+                <a href="goods_detail.php?id=3" class="col-lg-2 p-0"><img src="./img/product3.png" alt="상품3"><h2>봉황문인문보 전통 용돈봉투 </h2></a>
+                <a href="goods_detail.php?id=4" class="col-lg-2 p-0"><img src="./img/product4.png" alt="상품4"><h2>화문 트윌리</h2></a>
+                <a href="goods_detail.php?id=5" class="col-lg-2 p-0"><img src="./img/product5.png" alt="상품5"><h2>동심결 세조대</h2></a>
+                <a href="goods_detail.php?id=6" class="col-lg-2 p-0"><img src="./img/product6.png" alt="상품6"><h2>업사이클링 돌금박노리개 </h2></a>
             </div>
         </div>
 
